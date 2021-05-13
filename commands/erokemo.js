@@ -10,8 +10,8 @@ module.exports = {
 	if (message.channel.nsfw) {
 		const image = await nsfw.erokemo();
 		const embed = new Discord.MessageEmbed()
-			.setTitle(`erokemo Image`)
-			.setColor("GREEN")
+			.setTitle(`Erokemo`)
+			.setColor("#ffa31a")
 			.setImage(image);
 		message.channel.send(embed);
 	} else {

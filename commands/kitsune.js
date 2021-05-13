@@ -11,7 +11,7 @@ module.exports = {
 		const image = await nsfw.kitsune();
 		const embed = new Discord.MessageEmbed()
 			.setTitle(`Kitsune`)
-			.setColor("GREEN")
+			.setColor("#ffa31a")
 			.setImage(image);
 		message.channel.send(embed);
 	} else {

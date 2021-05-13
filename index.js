@@ -64,8 +64,84 @@ client.on('message', message => {
         client.commands.get('hentaithigh').run(message, args)
     } else if (command === 'kitsune'){
         client.commands.get('kitsune').run(message, args)
-    } else if (command === 'lewd'){
-        client.commands.get('lewd').run(message, args)
+    } else if (command === 'hentailewd'){
+        client.commands.get('hentailewd').run(message, args)
+    } else if (command === 'futanari'){
+        client.commands.get('futanari').execute(message, args)
+    } else if (command === 'hentailesbian'){
+        client.commands.get('hentailesbian').execute(message, args)
+    } else if (command === 'hentaikuni'){
+        client.commands.get('hentaikuni').execute(message, args)
+    } else if (command === 'hentaicumsluts'){
+        client.commands.get('hentaicumsluts').execute(message, args)
+    } else if (command === 'hentaiboobs'){
+        client.commands.get('hentaiboobs').execute(message, args)
+    } else if (command === 'hentaiclassic'){
+        client.commands.get('hentaiclassic').execute(message, args)
+    } else if (command === 'hentaibj'){
+        client.commands.get('hentaibj').execute(message, args)
+    } else if (command === 'hentaipussy'){
+        client.commands.get('hentaipussy').execute(message, args)
+    } else if (command === 'randomhentaigif'){
+        client.commands.get('randomhentaigif').execute(message, args)
+    } else if (command === 'hentaianal'){
+        client.commands.get('hentaianal').execute(message, args)
+    } else if (command === 'hentaiavatar'){
+        client.commands.get('hentaiavatar').execute(message, args)
+    } else if (command === 'nekogif'){
+        client.commands.get('nekogif').execute(message, args)
+    } else if (command === 'yuri'){
+        client.commands.get('yuri').execute(message, args)
+    } else if (command === 'trap'){
+        client.commands.get('trap').execute(message, args)
+    } else if (command === 'hentaitits'){
+        client.commands.get('hentaitits').execute(message, args)
+    } else if (command === 'hentaisologif'){
+        client.commands.get('hentaisologif').execute(message, args)
+    } else if (command === 'hentaisolo'){
+        client.commands.get('hentaisolo').execute(message, args)
+    } else if (command === 'hentaipussyart'){
+        client.commands.get('hentaipussyart').execute(message, args)
+    } else if (command === 'kemonomimi'){
+        client.commands.get('kemonomimi').execute(message, args)
+    } else if (command === 'keta'){
+        client.commands.get('keta').execute(message, args)
+    } else if (command === 'hentaifemdom'){
+        client.commands.get('hentaifemdom').execute(message, args)
+    } else if (command === 'holo'){
+        client.commands.get('holo').execute(message, args)
+    } else if (command === 'holo'){
+        client.commands.get('holo').execute(message, args)
+    } else if (command === 'holoero'){
+        client.commands.get('holoero').execute(message, args)
+    } else if (command === 'feetgif'){
+        client.commands.get('feetgif').execute(message, args)
+    } else if (command === 'erofeet'){
+        client.commands.get('erofeet').execute(message, args)
+    } else if (command === 'hentaifeet'){
+        client.commands.get('hentaifeet').execute(message, args)
+    } else if (command === 'ero'){
+        client.commands.get('ero').execute(message, args)
+    } else if (command === 'erokitsune'){
+        client.commands.get('erokitsune').execute(message, args)
+    } else if (command === 'erokemonomimi'){
+        client.commands.get('erokemonomimi').execute(message, args)
+    } else if (command === 'eroneko'){
+        client.commands.get('eroneko').execute(message, args)
+    } else if (command === 'eroyuri'){
+        client.commands.get('eroyuri').execute(message, args)
+    } else if (command === 'cumarts'){
+        client.commands.get('cumarts').execute(message, args)
+    } else if (command === 'hentaiblowjob'){
+        client.commands.get('hentaiblowjob').execute(message, args)
+    } else if (command === 'hentaispank'){
+        client.commands.get('hentaispank').execute(message, args)
+    } else if (command === 'hentaigasm'){
+        client.commands.get('hentaigasm').execute(message, args)
+    } else if (command === 'randomfact'){
+        client.commands.get('randomfact').execute(message, args)
+    } else if (command === 'memes'){
+        client.commands.get('memes').run(message, args)
     }
 })
 
@@ -85,7 +161,8 @@ if (foundInText) {
 });
 
 client.on("ready", () => {
-    console.log("Online Step Bro...");
+    console.log("Online Step Bro...\
+    \nhttps://discord.com/api/oauth2/authorize?client_id=841144912173989929&permissions=8&scope=bot");
   });
   
 client.login(process.env.token);

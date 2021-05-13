@@ -11,7 +11,7 @@ module.exports = {
 		const image = await nsfw.nekotits();
 		const embed = new Discord.MessageEmbed()
 			.setTitle(`Neko Tits`)
-			.setColor("GREEN")
+			.setColor("#ffa31a")
 			.setImage(image);
 		message.channel.send(embed);
 	} else {

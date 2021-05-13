@@ -11,7 +11,7 @@ module.exports = {
 		const image = await nsfw.boobs();
 		const embed = new Discord.MessageEmbed()
 			.setTitle(`boobs image`)
-			.setColor("GREEN")
+			.setColor("#ffa31a")
 			.setImage(image);
 		message.channel.send(embed);
 	} else {

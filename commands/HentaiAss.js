@@ -11,7 +11,7 @@ module.exports = {
 		const image = await nsfw.hentaiass();
 		const embed = new Discord.MessageEmbed()
 			.setTitle(`Hentai Ass`)
-			.setColor("GREEN")
+			.setColor("#ffa31a")
 			.setImage(image);
 		message.channel.send(embed);
 	} else {

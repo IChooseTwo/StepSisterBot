@@ -11,7 +11,7 @@ module.exports = {
 	.setTitle('Help')
 	.setDescription('Hey Step Bro... ;) here some help\n\ prefix = s!')
 	.addFields(
-		{ name: '**Commands:**', value: '\n\n**General Use:**\nstepbro\n\
+		{ name: '**Commands:**', value: '\u200B\n**General Use:**\nstepbro\ \nwallpaper\ \nhentaigasm\ \nrandomfact\ \nmemes\ \n\
 		\n**Real Life:**\
 		\n4kporn\
 		\nanal\
@@ -21,6 +21,7 @@ module.exports = {
 		\nsolo\
 		\nthigh\
 		\nporngif\
+		\nstepsis\
 		\n\
 		\n**Hentai:**\
 		\nerokemo\
@@ -28,12 +29,46 @@ module.exports = {
 		\nhentaiass\
 		\nhentaithigh\
 		\nkitsune\
-		\nlewd\
+		\nhentailewd\
 		\nmidriff\
 		\nnekofeet\
 		\nnekopussy\
 		\nnekotits\
-		\nwallpaper\
+		\nfutanari\
+		\nhentailesbian\
+		\nkuni\
+		\nhentaicumsluts\
+		\nhentaiboobs\
+		\nhentaiclassic\
+		\nhentaibj\
+		\nhentaipussy\
+		\nrandomhentaigif\
+		\nhentaianal\
+		\nhentaiavatar\
+		\nnekogif\
+		\nyuri\
+		\ntrap\
+		\nhentaitits\
+		\nhentaisologif\
+		\nhentaisolo\
+		\nhentaipussyart\
+		\nkemonomimi\
+		\nketa\
+		\nholo\
+		\nholoero\
+		\nfeetgif\
+		\nerofeet\
+		\nhentaifeet\
+		\nero\
+		\nerokitsune\
+		\nerokemonomimi\
+		\neroneko\
+		\neroyuri\
+		\ncumarts\
+		\nhentaiblowjob\
+		\nhentaispank\
+		\n\
+		\n**57 total commands!**\
 		\n' },
 	)
 	.setTimestamp()

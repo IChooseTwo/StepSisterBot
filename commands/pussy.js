@@ -11,7 +11,7 @@ module.exports = {
 		const image = await nsfw.pussy();
 		const embed = new Discord.MessageEmbed()
 			.setTitle(`Pussy Image`)
-			.setColor("GREEN")
+			.setColor("#ffa31a")
 			.setImage(image);
 		message.channel.send(embed);
 	} else {

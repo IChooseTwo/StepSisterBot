@@ -11,7 +11,7 @@ module.exports = {
 		const image = await nsfw.nekofeet();
 		const embed = new Discord.MessageEmbed()
 			.setTitle(`Neko Feet`)
-			.setColor("GREEN")
+			.setColor("#ffa31a")
 			.setImage(image);
 		message.channel.send(embed);
 	} else {
