@@ -3,14 +3,14 @@ const NSFW = require("discord-nsfw");
 const nsfw = new NSFW();
 
 module.exports = {
-    name: 'thigh',
+    name: 'thighs',
     description: "this is a ping command",
     async run (message, args){
 	if (message.author.bot) return false;
 	if (message.channel.nsfw) {
 		const image = await nsfw.thigh();
 		const embed = new Discord.MessageEmbed()
-			.setTitle(`Thigh`)
+			.setTitle(`Thighs`)
 			.setColor("#ffa31a")
 			.setImage(image);
 		message.channel.send(embed);
