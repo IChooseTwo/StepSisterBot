@@ -52,8 +52,8 @@ client.on('message', message => {
         client.commands.get('pussy').run(message, args)
     } else if (command === 'solo'){
         client.commands.get('solo').run(message, args)
-    } else if (command === 'thigh'){
-        client.commands.get('thigh').run(message, args)
+    } else if (command === 'thighs'){
+        client.commands.get('thighs').run(message, args)
     } else if (command === 'wallpaper'){
         client.commands.get('wallpaper').run(message, args)
     } else if (command === 'hentai'){
